@@ -1,0 +1,39 @@
+v0.3>pylint kdtree.py
+************* Module kdtree
+kdtree.py:106:0: C0301: Line too long (106/100) (line-too-long)
+kdtree.py:146:0: C0301: Line too long (113/100) (line-too-long)
+kdtree.py:148:0: C0301: Line too long (106/100) (line-too-long)
+kdtree.py:180:0: C0301: Line too long (116/100) (line-too-long)
+kdtree.py:210:18: C0326: Exactly one space required after comma
+    T = KDTree([(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)])
+                  ^ (bad-whitespace)
+kdtree.py:210:25: C0326: Exactly one space required after comma
+    T = KDTree([(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)])
+                         ^ (bad-whitespace)
+kdtree.py:210:32: C0326: Exactly one space required after comma
+    T = KDTree([(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)])
+                                ^ (bad-whitespace)
+kdtree.py:210:39: C0326: Exactly one space required after comma
+    T = KDTree([(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)])
+                                       ^ (bad-whitespace)
+kdtree.py:210:46: C0326: Exactly one space required after comma
+    T = KDTree([(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)])
+                                              ^ (bad-whitespace)
+kdtree.py:210:53: C0326: Exactly one space required after comma
+    T = KDTree([(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)])
+                                                     ^ (bad-whitespace)
+kdtree.py:210:60: C0326: Exactly one space required after comma
+    T = KDTree([(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)])
+                                                            ^ (bad-whitespace)
+kdtree.py:212:47: C0326: Exactly one space required after comma
+    print('Points in range:', T.search_range((2,2), (4,4)))
+                                               ^ (bad-whitespace)
+kdtree.py:212:54: C0326: Exactly one space required after comma
+    print('Points in range:', T.search_range((2,2), (4,4)))
+                                                      ^ (bad-whitespace)
+kdtree.py:215:0: C0301: Line too long (112/100) (line-too-long)
+kdtree.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+kdtree.py:2:0: C0115: Missing class docstring (missing-class-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 8.66/10 (previous run: 8.66/10, +0.00)

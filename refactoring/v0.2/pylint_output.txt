@@ -1,0 +1,52 @@
+v0.2>pylint kdtree.py
+************* Module kdtree
+kdtree.py:3:0: C0303: Trailing whitespace (trailing-whitespace)
+kdtree.py:71:0: C0303: Trailing whitespace (trailing-whitespace)
+kdtree.py:81:0: C0301: Line too long (107/100) (line-too-long)
+kdtree.py:100:38: C0303: Trailing whitespace (trailing-whitespace)
+kdtree.py:106:0: C0301: Line too long (107/100) (line-too-long)
+kdtree.py:154:0: C0301: Line too long (101/100) (line-too-long)
+kdtree.py:162:0: C0301: Line too long (116/100) (line-too-long)
+kdtree.py:164:0: C0301: Line too long (121/100) (line-too-long)
+kdtree.py:172:28: C0303: Trailing whitespace (trailing-whitespace)
+kdtree.py:174:0: C0301: Line too long (101/100) (line-too-long)
+kdtree.py:182:0: C0301: Line too long (116/100) (line-too-long)
+kdtree.py:184:0: C0301: Line too long (121/100) (line-too-long)
+kdtree.py:207:18: C0326: Exactly one space required after comma
+    T = KDTree([(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)])
+                  ^ (bad-whitespace)
+kdtree.py:207:25: C0326: Exactly one space required after comma
+    T = KDTree([(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)])
+                         ^ (bad-whitespace)
+kdtree.py:207:32: C0326: Exactly one space required after comma
+    T = KDTree([(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)])
+                                ^ (bad-whitespace)
+kdtree.py:207:39: C0326: Exactly one space required after comma
+    T = KDTree([(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)])
+                                       ^ (bad-whitespace)
+kdtree.py:207:46: C0326: Exactly one space required after comma
+    T = KDTree([(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)])
+                                              ^ (bad-whitespace)
+kdtree.py:207:53: C0326: Exactly one space required after comma
+    T = KDTree([(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)])
+                                                     ^ (bad-whitespace)
+kdtree.py:207:60: C0326: Exactly one space required after comma
+    T = KDTree([(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)])
+                                                            ^ (bad-whitespace)
+kdtree.py:209:47: C0326: Exactly one space required after comma
+    print('Points in range:', T.search_range((2,2), (4,4)))
+                                               ^ (bad-whitespace)
+kdtree.py:209:54: C0326: Exactly one space required after comma
+    print('Points in range:', T.search_range((2,2), (4,4)))
+                                                      ^ (bad-whitespace)
+kdtree.py:212:0: C0301: Line too long (112/100) (line-too-long)
+kdtree.py:233:0: C0303: Trailing whitespace (trailing-whitespace)
+kdtree.py:234:0: C0303: Trailing whitespace (trailing-whitespace)
+kdtree.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+kdtree.py:2:0: C0115: Missing class docstring (missing-class-docstring)
+kdtree.py:52:4: C0116: Missing function or method docstring (missing-function-docstring)
+kdtree.py:52:4: R0201: Method could be a function (no-self-use)
+kdtree.py:193:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.84/10 (previous run: 7.84/10, +0.00)

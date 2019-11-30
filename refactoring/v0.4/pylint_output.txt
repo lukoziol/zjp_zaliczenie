@@ -1,0 +1,33 @@
+v0.4>pylint kdtree.py
+************* Module kdtree
+kdtree.py:284:18: C0326: Exactly one space required after comma
+    T = KDTree([(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)])
+                  ^ (bad-whitespace)
+kdtree.py:284:25: C0326: Exactly one space required after comma
+    T = KDTree([(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)])
+                         ^ (bad-whitespace)
+kdtree.py:284:32: C0326: Exactly one space required after comma
+    T = KDTree([(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)])
+                                ^ (bad-whitespace)
+kdtree.py:284:39: C0326: Exactly one space required after comma
+    T = KDTree([(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)])
+                                       ^ (bad-whitespace)
+kdtree.py:284:46: C0326: Exactly one space required after comma
+    T = KDTree([(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)])
+                                              ^ (bad-whitespace)
+kdtree.py:284:53: C0326: Exactly one space required after comma
+    T = KDTree([(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)])
+                                                     ^ (bad-whitespace)
+kdtree.py:284:60: C0326: Exactly one space required after comma
+    T = KDTree([(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)])
+                                                            ^ (bad-whitespace)
+kdtree.py:286:47: C0326: Exactly one space required after comma
+    print('Points in range:', T.search_range((2,2), (4,4)))
+                                               ^ (bad-whitespace)
+kdtree.py:286:54: C0326: Exactly one space required after comma
+    print('Points in range:', T.search_range((2,2), (4,4)))
+                                                      ^ (bad-whitespace)
+kdtree.py:289:0: C0301: Line too long (112/100) (line-too-long)
+
+------------------------------------------------------------------
+Your code has been rated at 9.33/10 (previous run: 9.33/10, +0.00)

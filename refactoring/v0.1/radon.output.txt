@@ -1,0 +1,52 @@
+v0.1>radon cc -s kdtree.py
+kdtree.py
+    F 101:0 search_x_range - B (7)
+    F 137:0 search_y_range - B (7)
+    F 19:0 make_x_split - B (6)
+    F 60:0 make_y_split - B (6)
+    F 2:0 make_tree - A (2)
+    F 174:0 search - A (1)
+	
+v0.1>radon mi -s kdtree.py
+kdtree.py - A (51.84)
+
+v0.1>radon raw -s kdtree.py
+kdtree.py
+    LOC: 237
+    LLOC: 169
+    SLOC: 164
+    Comments: 46
+    Single comments: 46
+    Multi: 0
+    Blank: 27
+    - Comment Stats
+        (C % L): 19%
+        (C % S): 28%
+        (C + M % L): 19%
+** Total **
+    LOC: 237
+    LLOC: 169
+    SLOC: 164
+    Comments: 46
+    Single comments: 46
+    Multi: 0
+    Blank: 27
+    - Comment Stats
+        (C % L): 19%
+        (C % S): 28%
+        (C + M % L): 19%
+		
+v0.1>radon hal kdtree.py
+kdtree.py:
+    h1: 11
+    h2: 86
+    N1: 80
+    N2: 156
+    vocabulary: 97
+    length: 236
+    calculated_length: 590.7125167093907
+    volume: 1557.579430756162
+    difficulty: 9.976744186046512
+    effort: 15539.571530102176
+    time: 863.3095294501209
+    bugs: 0.5191931435853874

@@ -1,0 +1,59 @@
+v0.4>radon cc -s kdtree.py
+kdtree.py
+    M 172:4 KDTree.find_bounds - B (8)
+    M 108:4 KDTree.__make_split - B (7)
+    M 224:4 KDTree.__search_range_recursive - B (6)
+    C 4:0 KDTree - A (4)
+    M 209:4 KDTree.__point_in_range - A (3)
+    M 13:4 KDTree.__logger - A (2)
+    M 83:4 KDTree.__str__ - A (2)
+    M 95:4 KDTree.__find_size - A (2)
+    M 161:4 KDTree.__parent - A (2)
+    M 28:4 KDTree.__init__ - A (1)
+    M 65:4 KDTree.size - A (1)
+    M 73:4 KDTree.__getitem__ - A (1)
+    M 265:4 KDTree.search_range - A (1)
+
+v0.4>radon mi -s kdtree.py
+kdtree.py - A (52.84)
+
+v0.4>radon raw -s kdtree.py
+kdtree.py
+    LOC: 307
+    LLOC: 172
+    SLOC: 162
+    Comments: 32
+    Single comments: 33
+    Multi: 82
+    Blank: 30
+    - Comment Stats
+        (C % L): 10%
+        (C % S): 20%
+        (C + M % L): 37%
+** Total **
+    LOC: 307
+    LLOC: 172
+    SLOC: 162
+    Comments: 32
+    Single comments: 33
+    Multi: 82
+    Blank: 30
+    - Comment Stats
+        (C % L): 10%
+        (C % S): 20%
+        (C + M % L): 37%
+
+v0.4>radon hal kdtree.py
+kdtree.py:
+    h1: 14
+    h2: 81
+    N1: 75
+    N2: 144
+    vocabulary: 95
+    length: 219
+    calculated_length: 566.830819142461
+    volume: 1438.7983782244776
+    difficulty: 12.444444444444445
+    effort: 17905.046484571278
+    time: 994.7248046984043
+    bugs: 0.4795994594081592

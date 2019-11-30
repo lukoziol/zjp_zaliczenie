@@ -1,0 +1,103 @@
+v0.1>pylint kdtree.py
+************* Module kdtree
+kdtree.py:5:0: C0303: Trailing whitespace (trailing-whitespace)
+kdtree.py:23:0: C0303: Trailing whitespace (trailing-whitespace)
+kdtree.py:64:0: C0303: Trailing whitespace (trailing-whitespace)
+kdtree.py:68:14: C0303: Trailing whitespace (trailing-whitespace)
+kdtree.py:108:0: C0303: Trailing whitespace (trailing-whitespace)
+kdtree.py:127:0: C0301: Line too long (112/100) (line-too-long)
+kdtree.py:129:0: C0301: Line too long (121/100) (line-too-long)
+kdtree.py:144:0: C0303: Trailing whitespace (trailing-whitespace)
+kdtree.py:153:20: C0303: Trailing whitespace (trailing-whitespace)
+kdtree.py:163:0: C0301: Line too long (112/100) (line-too-long)
+kdtree.py:165:0: C0301: Line too long (121/100) (line-too-long)
+kdtree.py:179:0: C0303: Trailing whitespace (trailing-whitespace)
+kdtree.py:203:12: C0326: Exactly one space required after comma
+points = [(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)]
+            ^ (bad-whitespace)
+kdtree.py:203:19: C0326: Exactly one space required after comma
+points = [(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)]
+                   ^ (bad-whitespace)
+kdtree.py:203:26: C0326: Exactly one space required after comma
+points = [(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)]
+                          ^ (bad-whitespace)
+kdtree.py:203:33: C0326: Exactly one space required after comma
+points = [(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)]
+                                 ^ (bad-whitespace)
+kdtree.py:203:40: C0326: Exactly one space required after comma
+points = [(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)]
+                                        ^ (bad-whitespace)
+kdtree.py:203:47: C0326: Exactly one space required after comma
+points = [(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)]
+                                               ^ (bad-whitespace)
+kdtree.py:203:54: C0326: Exactly one space required after comma
+points = [(0,0), (1,1), (2,2), (3,3), (4,4), (5,5), (6,6)]
+                                                      ^ (bad-whitespace)
+kdtree.py:206:18: C0326: Exactly one space required after comma
+search_range = [(2,2), (4,4)]
+                  ^ (bad-whitespace)
+kdtree.py:206:25: C0326: Exactly one space required after comma
+search_range = [(2,2), (4,4)]
+                         ^ (bad-whitespace)
+kdtree.py:210:0: C0301: Line too long (105/100) (line-too-long)
+kdtree.py:236:0: C0303: Trailing whitespace (trailing-whitespace)
+kdtree.py:237:0: C0303: Trailing whitespace (trailing-whitespace)
+kdtree.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+kdtree.py:2:0: C0116: Missing function or method docstring (missing-function-docstring)
+kdtree.py:2:14: W0621: Redefining name 'points' from outer scope (line 203) (redefined-outer-name)
+kdtree.py:3:4: C0103: Constant name "size" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:3:4: W0603: Using the global statement (global-statement)
+kdtree.py:4:4: W0603: Using the global statement (global-statement)
+kdtree.py:19:0: C0116: Missing function or method docstring (missing-function-docstring)
+kdtree.py:21:4: W0603: Using the global statement (global-statement)
+kdtree.py:22:4: C0103: Constant name "size" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:22:4: W0603: Using the global statement (global-statement)
+kdtree.py:25:4: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+kdtree.py:60:0: C0116: Missing function or method docstring (missing-function-docstring)
+kdtree.py:62:4: W0603: Using the global statement (global-statement)
+kdtree.py:63:4: C0103: Constant name "size" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:63:4: W0603: Using the global statement (global-statement)
+kdtree.py:66:4: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+kdtree.py:101:0: C0116: Missing function or method docstring (missing-function-docstring)
+kdtree.py:103:4: W0603: Using the global statement (global-statement)
+kdtree.py:104:4: C0103: Constant name "size" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:104:4: W0603: Using the global statement (global-statement)
+kdtree.py:105:4: C0103: Constant name "range_points" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:105:4: W0603: Using the global statement (global-statement)
+kdtree.py:106:4: C0103: Constant name "traversed_points" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:106:4: W0603: Using the global statement (global-statement)
+kdtree.py:107:4: C0103: Constant name "search_range" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:107:4: W0603: Using the global statement (global-statement)
+kdtree.py:137:0: C0116: Missing function or method docstring (missing-function-docstring)
+kdtree.py:139:4: W0603: Using the global statement (global-statement)
+kdtree.py:140:4: C0103: Constant name "size" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:140:4: W0603: Using the global statement (global-statement)
+kdtree.py:141:4: C0103: Constant name "range_points" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:141:4: W0603: Using the global statement (global-statement)
+kdtree.py:142:4: C0103: Constant name "traversed_points" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:142:4: W0603: Using the global statement (global-statement)
+kdtree.py:143:4: C0103: Constant name "search_range" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:143:4: W0603: Using the global statement (global-statement)
+kdtree.py:174:0: C0116: Missing function or method docstring (missing-function-docstring)
+kdtree.py:176:4: C0103: Constant name "range_points" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:176:4: W0603: Using the global statement (global-statement)
+kdtree.py:177:4: C0103: Constant name "traversed_points" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:177:4: W0603: Using the global statement (global-statement)
+kdtree.py:178:4: C0103: Constant name "search_range" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:178:4: W0603: Using the global statement (global-statement)
+kdtree.py:195:0: C0103: Constant name "size" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:196:0: C0103: Constant name "range_points" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:197:0: C0103: Constant name "traversed_points" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:198:0: C0103: Constant name "search_range" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:203:0: C0103: Constant name "points" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:206:0: C0103: Constant name "search_range" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:210:0: C0103: Constant name "points" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:213:0: C0103: Constant name "search_range" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:217:0: C0103: Constant name "search_range" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:221:0: C0103: Constant name "search_range" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:225:0: C0103: Constant name "search_range" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:229:0: C0103: Constant name "search_range" doesn't conform to UPPER_CASE naming style (invalid-name)
+kdtree.py:233:0: C0103: Constant name "search_range" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 5.06/10 (previous run: 5.06/10, +0.00)

@@ -1,0 +1,55 @@
+v0.3>radon cc -s kdtree.py
+kdtree.py
+    M 86:4 KDTree.__make_split - B (7)
+    M 152:4 KDTree.__search_range_recursive - B (6)
+    C 2:0 KDTree - A (4)
+    M 138:4 KDTree.__point_in_range - A (3)
+    M 7:4 KDTree.__logger - A (2)
+    M 61:4 KDTree.__str__ - A (2)
+    M 73:4 KDTree.__find_size - A (2)
+    M 23:4 KDTree.__init__ - A (1)
+    M 191:4 KDTree.search_range - A (1)
+
+v0.3>radon mi -s kdtree.py
+kdtree.py - A (58.02)
+
+v0.3>radon raw -s kdtree.py
+kdtree.py
+    LOC: 233
+    LLOC: 134
+    SLOC: 122
+    Comments: 27
+    Single comments: 27
+    Multi: 59
+    Blank: 25
+    - Comment Stats
+        (C % L): 12%
+        (C % S): 22%
+        (C + M % L): 37%
+** Total **
+    LOC: 233
+    LLOC: 134
+    SLOC: 122
+    Comments: 27
+    Single comments: 27
+    Multi: 59
+    Blank: 25
+    - Comment Stats
+        (C % L): 12%
+        (C % S): 22%
+        (C + M % L): 37%
+
+v0.3>radon hal kdtree.py
+kdtree.py:
+    h1: 12
+    h2: 54
+    N1: 54
+    N2: 106
+    vocabulary: 66
+    length: 160
+    calculated_length: 353.78347512548123
+    volume: 967.1030590973526
+    difficulty: 11.777777777777779
+    effort: 11390.32491825771
+    time: 632.795828792095
+    bugs: 0.32236768636578417
